@@ -15,5 +15,7 @@ table = {
     {7, 8, 9}
 }
 
-PP:
+PP:PrettyPrintTable(table); 
+
+PP:PrettyPrintTable2(table); 
 
