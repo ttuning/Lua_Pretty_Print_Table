@@ -11,6 +11,8 @@ local PP = pp:init()  -- init  module
 
 table = {
     {1, 2, 3},
+    true,
+    "hello",
     {4, 5, 6},
     {7, 8, 9}
 }
@@ -18,4 +20,6 @@ table = {
 PP:PrettyPrintTable(table); 
 
 PP:PrettyPrintTable2(table); 
+
+
 
